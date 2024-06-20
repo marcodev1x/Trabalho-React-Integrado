@@ -1,0 +1,15 @@
+.home-container {
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 2rem;
+  color: #673ab7;
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
